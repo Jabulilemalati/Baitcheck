@@ -1,0 +1,42 @@
+Return-Path: <noreply@refund-claim.top>
+Received: from smtp.refund-claim.top (smtp.refund-claim.top [198.51.100.23])
+	by mx.example-school.ac.za with ESMTP id 91cd77
+	for <student@example-school.ac.za>; Thu, 17 Sep 2026 19:12:40 +0200
+Authentication-Results: mx.example-school.ac.za;
+	spf=softfail smtp.mailfrom=refund-claim.top;
+	dkim=none;
+	dmarc=none
+From: SARS eFiling <efiling@refund-claim.top>
+To: student@example-school.ac.za
+Subject: Tax refund of R4,870.00 awaiting your confirmation
+Date: Thu, 17 Sep 2026 19:12:31 +0200
+Message-ID: <a81f22c9@smtp.refund-claim.top>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="==sars_boundary=="
+
+--==sars_boundary==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Dear Taxpayer,
+
+After the annual calculation of your fiscal activity we have determined that
+you are eligible to receive a tax refund of R4,870.00.
+
+Claim your refund here: https://sars.gov.za.refund-claim.top/efiling/claim
+Mobile users: https://bit.ly/sars-refund-2026
+
+Please complete the attached form with your ID number and banking details
+immediately. Unclaimed refunds expire today.
+
+South African Revenue Service
+
+--==sars_boundary==
+Content-Type: text/html; name="Refund_Form.pdf.html"
+Content-Disposition: attachment; filename="Refund_Form.pdf.html"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGJvZHk+PGgyPlNBUlMgZUZpbGluZzwvaDI+PHA+U2FtcGxlIGNyZWRlbnRpYWwtaGFy
+dmVzdGluZyBwYWdlIChpbmVydCB0ZXN0IGZpeHR1cmUpPC9wPjwvYm9keT48L2h0bWw+
+
+--==sars_boundary==--

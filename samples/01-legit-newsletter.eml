@@ -1,0 +1,42 @@
+Return-Path: <bounces@takealot.com>
+Received: from mail-out3.takealot.com (mail-out3.takealot.com [41.21.200.14])
+	by mx.example-school.ac.za with ESMTPS id 8f2a1c
+	for <student@example-school.ac.za>; Mon, 14 Sep 2026 08:02:11 +0200
+Authentication-Results: mx.example-school.ac.za;
+	spf=pass smtp.mailfrom=takealot.com;
+	dkim=pass header.d=takealot.com;
+	dmarc=pass header.from=takealot.com
+DKIM-Signature: v=1; a=rsa-sha256; d=takealot.com; s=mail; h=from:to:subject:date; bh=abc123=; b=def456=
+From: Takealot <newsletter@takealot.com>
+To: Thabo Mokoena <student@example-school.ac.za>
+Subject: Thabo, your weekly deals are here
+Date: Mon, 14 Sep 2026 08:02:00 +0200
+Message-ID: <20260914080200.77a1@takealot.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1_newsletter"
+
+--b1_newsletter
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Hi Thabo,
+
+This week's specials on laptops and headphones are live.
+Browse the deals: https://www.takealot.com/deals
+
+You're receiving this because you signed up for our newsletter.
+Manage preferences: https://www.takealot.com/account/preferences
+
+--b1_newsletter
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Hi Thabo,</p>
+<p>This week's specials on laptops and headphones are live.</p>
+<p><a href="https://www.takealot.com/deals">Browse the deals</a></p>
+<p style="font-size:11px">You're receiving this because you signed up for our newsletter.
+<a href="https://www.takealot.com/account/preferences">Manage preferences</a></p>
+</body></html>
+
+--b1_newsletter--

@@ -1,0 +1,38 @@
+Return-Path: <billing@rnicrosoft.com>
+Received: from mail.rnicrosoft.com (mail.rnicrosoft.com [192.0.2.77])
+	by mx.example-school.ac.za with ESMTP id 3e4f5a
+	for <student@example-school.ac.za>; Mon, 21 Sep 2026 10:05:02 +0200
+Authentication-Results: mx.example-school.ac.za;
+	spf=pass smtp.mailfrom=rnicrosoft.com;
+	dkim=pass header.d=rnicrosoft.com;
+	dmarc=pass header.from=rnicrosoft.com
+From: Microsoft 365 Billing <billing@rnicrosoft.com>
+To: student@example-school.ac.za
+Subject: Action required: Invoice #INV-2026-0921 overdue
+Date: Mon, 21 Sep 2026 10:04:58 +0200
+Message-ID: <inv-0921-77@rnicrosoft.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MS_BOUNDARY_01"
+
+--MS_BOUNDARY_01
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body>
+<p>Hello,</p>
+<p>Your Microsoft 365 subscription payment failed and your mailbox will be =
+<b>deactivated</b> in 48 hours.</p>
+<p>Open the attached invoice and enable editing to view the amount due, or =
+<a href=3D"https://xn--micrsoft-login-8kc.com/billing">update your payment</a=
+> details online.</p>
+<p>Microsoft Billing</p>
+</body></html>
+
+--MS_BOUNDARY_01
+Content-Type: application/vnd.ms-word.document.macroEnabled.12; name="Invoice_INV-2026-0921.docm"
+Content-Disposition: attachment; filename="Invoice_INV-2026-0921.docm"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAHRlc3QgZml4dHVyZSBvbmx5IC0gbm90IGEgcmVhbCBkb2N1bWVudA==
+
+--MS_BOUNDARY_01--

