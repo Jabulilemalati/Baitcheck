@@ -1,5 +1,7 @@
 # BaitCheck
 
+WTC-YD3793DS - verification code
+
 A command-line tool that reads an email file (`.eml`) and tells you how likely it is to be phishing, and why.
 
 I built this because most phishing advice is "check the sender and don't click dodgy links", which is hard to do when you don't know what you're looking at. BaitCheck does those checks for you and explains each one, so it's also a decent way to learn what the warning signs actually are.
